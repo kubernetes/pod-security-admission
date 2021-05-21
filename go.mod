@@ -3,5 +3,3 @@
 module k8s.io/pod-security-admission
 
 go 1.16
-
-replace k8s.io/pod-security-admission => ../pod-security-admission
