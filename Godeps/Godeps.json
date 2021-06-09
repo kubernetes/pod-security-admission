@@ -1,9 +1,0 @@
-{
-	"ImportPath": "k8s.io/pod-security-admission",
-	"GoVersion": "unknown",
-	"GodepVersion": "gen-godeps",
-	"Packages": [
-		"./..."
-	],
-	"Deps": null
-}
