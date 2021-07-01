@@ -11,6 +11,7 @@ require (
 	k8s.io/apimachinery v0.0.0-20210701054147-830375057167
 	k8s.io/apiserver v0.0.0-20210701055507-8d4ac24e5b70
 	k8s.io/client-go v0.0.0-20210701054555-843bb800b12a
+	k8s.io/component-base v0.0.0-20210701094710-0b46b07fe126
 	k8s.io/klog/v2 v2.9.0
 	k8s.io/utils v0.0.0-20210521133846-da695404a2bc
 	sigs.k8s.io/yaml v1.2.0
@@ -21,5 +22,5 @@ replace (
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210701054147-830375057167
 	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210701055507-8d4ac24e5b70
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20210701054555-843bb800b12a
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210701055118-2b6184b12d2d
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20210701094710-0b46b07fe126
 )
