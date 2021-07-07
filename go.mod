@@ -9,7 +9,6 @@ require (
 	github.com/stretchr/testify v1.7.0
 	k8s.io/api v0.0.0-20210707054401-2c49f10e0b15
 	k8s.io/apimachinery v0.0.0-20210701054147-830375057167
-	k8s.io/apiserver v0.0.0-20210706215528-462585d9747b
 	k8s.io/client-go v0.0.0-20210707054637-4339f1ba5ffa
 	k8s.io/component-base v0.0.0-20210702054709-fddd92849e34
 	k8s.io/klog/v2 v2.9.0
@@ -20,7 +19,6 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20210707054401-2c49f10e0b15
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210701054147-830375057167
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210706215528-462585d9747b
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20210707054637-4339f1ba5ffa
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20210702054709-fddd92849e34
 )
