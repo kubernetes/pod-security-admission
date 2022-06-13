@@ -12,9 +12,9 @@ require (
 	github.com/stretchr/testify v1.7.0
 	k8s.io/api v0.0.0-20220613074849-6b0201da8019
 	k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/apiserver v0.0.0-20220613080215-ce50ce502024
-	k8s.io/client-go v0.0.0-20220613075149-d4fc9af2dfad
-	k8s.io/component-base v0.0.0-20220613075733-a8a2668bd522
+	k8s.io/apiserver v0.0.0-20220613200012-957be96d043c
+	k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
+	k8s.io/component-base v0.0.0-20220613195522-9227fb076997
 	k8s.io/klog/v2 v2.60.1
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/yaml v1.2.0
@@ -29,7 +29,7 @@ require (
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/emicklei/go-restful/v3 v3.7.5-0.20220308211933-7c971ca4d0fd // indirect
+	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
@@ -103,7 +103,7 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20220613074849-6b0201da8019
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220613074648-b90ea24d2fd6
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220613080215-ce50ce502024
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613075149-d4fc9af2dfad
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220613075733-a8a2668bd522
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220613200012-957be96d043c
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20220613195210-2a9f95519059
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20220613195522-9227fb076997
 )
