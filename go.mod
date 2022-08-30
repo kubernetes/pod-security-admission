@@ -6,15 +6,15 @@ go 1.19
 
 require (
 	github.com/blang/semver/v4 v4.0.0
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.8
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
-	k8s.io/api v0.0.0-20220810012946-5c4a1b197d1d
-	k8s.io/apimachinery v0.0.0-20220805001719-117bd9b56ec3
-	k8s.io/apiserver v0.0.0-20220818230039-2e399bce4020
-	k8s.io/client-go v0.0.0-20220907013435-db7e2d829ebd
-	k8s.io/component-base v0.0.0-20220810184732-a3ff0a6aeab5
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.70.1
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 	sigs.k8s.io/yaml v1.2.0
@@ -101,9 +101,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220810012946-5c4a1b197d1d
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220805001719-117bd9b56ec3
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220818230039-2e399bce4020
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220907013435-db7e2d829ebd
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220810184732-a3ff0a6aeab5
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/pod-security-admission => ../pod-security-admission
 )
