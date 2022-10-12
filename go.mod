@@ -7,14 +7,14 @@ go 1.19
 require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/google/go-cmp v0.5.9
-	github.com/spf13/cobra v1.5.0
+	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20221012035047-0f8110492ea0
-	k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/apiserver v0.0.0-20221012040521-848d0394b365
-	k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
-	k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324
 	sigs.k8s.io/yaml v1.3.0
@@ -47,7 +47,7 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.6 // indirect
@@ -93,7 +93,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20221012040222-bf322548c086 // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1 // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.33 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
@@ -101,10 +101,11 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221012035047-0f8110492ea0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221012040521-848d0394b365
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282
-	k8s.io/kms => k8s.io/kms v0.0.0-20221012040222-bf322548c086
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
+	k8s.io/pod-security-admission => ../pod-security-admission
 )
