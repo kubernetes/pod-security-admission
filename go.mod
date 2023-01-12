@@ -11,8 +11,8 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
 	k8s.io/api v0.0.0-20221227185931-07a9cbc7b3b1
-	k8s.io/apimachinery v0.0.0-20221208055745-5d4cdd22b0f7
-	k8s.io/apiserver v0.0.0-20230110182433-7b39ac140522
+	k8s.io/apimachinery v0.0.0-20230111232008-373a5f752d44
+	k8s.io/apiserver v0.0.0-20230112074716-81b63bfb3256
 	k8s.io/client-go v0.0.0-20221227214233-0c34939c9bcb
 	k8s.io/component-base v0.0.0-20230110174730-0b623d3c56e9
 	k8s.io/klog/v2 v2.80.1
@@ -42,7 +42,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/google/cel-go v0.12.5 // indirect
+	github.com/google/cel-go v0.12.6 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/google/uuid v1.1.2 // indirect
@@ -105,8 +105,8 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20221227185931-07a9cbc7b3b1
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221208055745-5d4cdd22b0f7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230110182433-7b39ac140522
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230111232008-373a5f752d44
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230112074716-81b63bfb3256
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20221227214233-0c34939c9bcb
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230110174730-0b623d3c56e9
 	k8s.io/kms => k8s.io/kms v0.0.0-20221208063806-3bf04e13ad9a
