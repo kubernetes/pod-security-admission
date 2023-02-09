@@ -10,11 +10,11 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.0
-	k8s.io/api v0.0.0-20221223022825-04d79f14928a
-	k8s.io/apimachinery v0.0.0-20230112061235-cb56acadb4eb
-	k8s.io/apiserver v0.0.0-20230112072001-743ac96fce9f
-	k8s.io/client-go v0.0.0-20221223025853-5468c97b2b39
-	k8s.io/component-base v0.0.0-20221223033316-0498e33f1385
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.30.0
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 	sigs.k8s.io/yaml v1.2.0
@@ -79,7 +79,7 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.19.0 // indirect
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
-	golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10 // indirect
+	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.3.0 // indirect
@@ -101,9 +101,10 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221223022825-04d79f14928a
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230112061235-cb56acadb4eb
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230112072001-743ac96fce9f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221223025853-5468c97b2b39
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221223033316-0498e33f1385
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/pod-security-admission => ../pod-security-admission
 )
