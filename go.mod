@@ -10,11 +10,11 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.1
-	k8s.io/api v0.0.0-20230308234233-a4afee70a903
-	k8s.io/apimachinery v0.0.0-20230303235435-f357b1fa74b7
-	k8s.io/apiserver v0.0.0-20230309040056-e97010c72768
-	k8s.io/client-go v0.0.0-20230310084516-756a0f3ae9a9
-	k8s.io/component-base v0.0.0-20230308075123-cfc68dcaff73
+	k8s.io/api v0.0.0-20230310084041-7785f7653f92
+	k8s.io/apimachinery v0.0.0-20230310083533-ca95f42b2383
+	k8s.io/apiserver v0.0.0-20230310090647-8b3d5d0ea884
+	k8s.io/client-go v0.0.0-20230310084519-d2ebc4d27c5a
+	k8s.io/component-base v0.0.0-20230310085212-d69652187fff
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -97,17 +97,17 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/kms v0.0.0-20230304001132-5439f76ca4a7 // indirect
-	k8s.io/kube-openapi v0.0.0-20230303024457-afdc3dddf62d // indirect
+	k8s.io/kube-openapi v0.0.0-20230308215209-15aac26d736a // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.1.1 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230308234233-a4afee70a903
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230303235435-f357b1fa74b7
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230309040056-e97010c72768
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230310084516-756a0f3ae9a9
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230308075123-cfc68dcaff73
+	k8s.io/api => k8s.io/api v0.0.0-20230310084041-7785f7653f92
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230310083533-ca95f42b2383
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230310090647-8b3d5d0ea884
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230310084519-d2ebc4d27c5a
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230310085212-d69652187fff
 	k8s.io/kms => k8s.io/kms v0.0.0-20230304001132-5439f76ca4a7
 )
