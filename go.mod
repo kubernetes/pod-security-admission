@@ -12,9 +12,9 @@ require (
 	github.com/stretchr/testify v1.8.2
 	k8s.io/api v0.0.0-20230413214513-e2bb673563f3
 	k8s.io/apimachinery v0.0.0-20230419134007-09996a1f4a36
-	k8s.io/apiserver v0.0.0-20230419140335-9b297a643957
+	k8s.io/apiserver v0.0.0-20230419140336-67ebdf32c39a
 	k8s.io/client-go v0.0.0-20230419134847-c84a3771c048
-	k8s.io/component-base v0.0.0-20230419135643-e2509cd99ee4
+	k8s.io/component-base v0.0.0-20230419135644-20720ec3ac62
 	k8s.io/klog/v2 v2.90.1
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
 	sigs.k8s.io/yaml v1.3.0
@@ -25,7 +25,7 @@ require (
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
+	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
@@ -108,8 +108,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230413214513-e2bb673563f3
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230419134007-09996a1f4a36
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230419140335-9b297a643957
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230419140336-67ebdf32c39a
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20230419134847-c84a3771c048
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230419135643-e2509cd99ee4
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230419135644-20720ec3ac62
 	k8s.io/kms => k8s.io/kms v0.0.0-20230419135904-7c6895bd4e7b
 )
