@@ -12,8 +12,8 @@ require (
 	github.com/stretchr/testify v1.8.2
 	k8s.io/api v0.0.0-20230515170019-2f9553831ec2
 	k8s.io/apimachinery v0.0.0-20230524221503-b43878988803
-	k8s.io/apiserver v0.0.0-20230524223220-aa6ff55e90da
-	k8s.io/client-go v0.0.0-20230524222011-328d0fb9eea4
+	k8s.io/apiserver v0.0.0-20230525062812-8124f45241e9
+	k8s.io/client-go v0.0.0-20230525061952-6fbb0bd42d86
 	k8s.io/component-base v0.0.0-20230524222639-c480b94a7172
 	k8s.io/klog/v2 v2.100.1
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2
@@ -107,8 +107,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230515170019-2f9553831ec2
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230524221503-b43878988803
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230524223220-aa6ff55e90da
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230524222011-328d0fb9eea4
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230525062812-8124f45241e9
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230525061952-6fbb0bd42d86
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230524222639-c480b94a7172
 	k8s.io/kms => k8s.io/kms v0.0.0-20230515171440-e664c8d39ad7
 )
