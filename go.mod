@@ -13,9 +13,9 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
 	k8s.io/api v0.0.0-20240912033524-9dc1a952bda9
-	k8s.io/apimachinery v0.0.0-20240912032824-4e174c5e3655
-	k8s.io/apiserver v0.0.0-20240912041851-6ab385d4672d
-	k8s.io/client-go v0.0.0-20240912034400-c5e16f8d68e8
+	k8s.io/apimachinery v0.0.0-20240913152823-0fc0110cc2ce
+	k8s.io/apiserver v0.0.0-20240916234411-b0e467577527
+	k8s.io/client-go v0.0.0-20240913153400-fb6ca040d7b7
 	k8s.io/component-base v0.0.0-20240912040419-b642e81b6901
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
@@ -67,9 +67,9 @@ require (
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.15 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.15 // indirect
-	go.etcd.io/etcd/client/v3 v3.5.15 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.16 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.16 // indirect
+	go.etcd.io/etcd/client/v3 v3.5.16 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
 	go.opentelemetry.io/otel v1.28.0 // indirect
