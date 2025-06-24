@@ -12,11 +12,11 @@ require (
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
 	github.com/stretchr/testify v1.10.0
-	k8s.io/api v0.0.0-20250723224532-85cd86bc4fa5
-	k8s.io/apimachinery v0.0.0-20250723005633-58c4eb072ebf
-	k8s.io/apiserver v0.0.0-20250723185939-b6a8cfb34902
-	k8s.io/client-go v0.0.0-20250723062849-06fcc8a0753e
-	k8s.io/component-base v0.0.0-20250717172125-4e07767df717
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/apiserver v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 	sigs.k8s.io/yaml v1.5.0
@@ -35,7 +35,7 @@ require (
 	github.com/emicklei/go-restful/v3 v3.12.2 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
-	github.com/fxamacker/cbor/v2 v2.8.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-logr/zapr v1.3.0 // indirect
@@ -100,10 +100,19 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/kms v0.0.0-20250716213631-bbefe5cb7a2e // indirect
+	k8s.io/kms v0.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20250710124328-f3f2b991d03b // indirect
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.31.2 // indirect
 	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kms => ../kms
 )
