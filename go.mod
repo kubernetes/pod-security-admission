@@ -12,11 +12,11 @@ require (
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.9
 	github.com/stretchr/testify v1.11.1
-	k8s.io/api v0.0.0-20260414141716-ddad8a9beb39
-	k8s.io/apimachinery v0.0.0-20260414135623-72791e98891a
-	k8s.io/apiserver v0.0.0-20260414163625-aa69486a0bec
-	k8s.io/client-go v0.0.0-20260414143851-3c8a6967ba6d
-	k8s.io/component-base v0.0.0-20260414155923-12f6271c1572
+	k8s.io/api v0.0.0-20260423021924-2dd166de3fa1
+	k8s.io/apimachinery v0.0.0-20260423021553-a31c3dcb1f8b
+	k8s.io/apiserver v0.0.0-20260423194610-e51f1ed16c82
+	k8s.io/client-go v0.0.0-20260423102623-3273f3d7b7fd
+	k8s.io/component-base v0.0.0-20260423023547-92e5a83b5564
 	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 	sigs.k8s.io/yaml v1.6.0
@@ -25,7 +25,7 @@ require (
 require (
 	cel.dev/expr v0.25.1 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
-	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
+	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -44,7 +44,7 @@ require (
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
-	github.com/google/cel-go v0.26.0 // indirect
+	github.com/google/cel-go v0.27.0 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware/providers/prometheus v1.1.0 // indirect
@@ -63,7 +63,6 @@ require (
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.67.5 // indirect
 	github.com/prometheus/procfs v0.19.2 // indirect
-	github.com/stoewer/go-strcase v1.3.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.etcd.io/etcd/api/v3 v3.6.8 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.6.8 // indirect
