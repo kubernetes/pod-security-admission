@@ -14,7 +14,7 @@ require (
 	github.com/stretchr/testify v1.11.1
 	k8s.io/api v0.0.0-20260509204538-0dfb117cc6ec
 	k8s.io/apimachinery v0.0.0-20260509204146-64dfe1db2af5
-	k8s.io/apiserver v0.0.0-20260509211346-45e9e19e6e96
+	k8s.io/apiserver v0.0.0-20260512190514-a86ea1bc9c2d
 	k8s.io/client-go v0.0.0-20260509205101-ca52b81a2940
 	k8s.io/component-base v0.0.0-20260509210330-c73ee568534a
 	k8s.io/klog/v2 v2.140.0
@@ -115,3 +115,5 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
 )
+
+replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20260509200517-6d42bfdcfb2b
